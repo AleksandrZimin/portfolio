@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a8ccd954.css",
+    "main.js": "/portfolio/static/js/main.1453187d.js",
+    "static/js/787.a2bf511c.chunk.js": "/portfolio/static/js/787.a2bf511c.chunk.js",
+    "static/media/AvatarAndIcons (1).png": "/portfolio/static/media/AvatarAndIcons (1).7b03ab08343188aa04e9.png",
+    "static/media/myphoto.jpg": "/portfolio/static/media/myphoto.01e1182700d4509483fd.jpg",
+    "static/media/fs.jpg": "/portfolio/static/media/fs.541e22ef2d1a7c3f50a8.jpg",
+    "static/media/chessbase.jpg": "/portfolio/static/media/chessbase.edc265570f04668af023.jpg",
+    "static/media/galaxy.jpg": "/portfolio/static/media/galaxy.09f829932bb740f9d4b3.jpg",
+    "static/media/bem.jpg": "/portfolio/static/media/bem.4d78646701d5afd2e626.jpg",
+    "static/media/Mesto-react.jpg": "/portfolio/static/media/Mesto-react.82dd5a95bf583c9d8126.jpg",
+    "static/media/adaptiv.jpg": "/portfolio/static/media/adaptiv.6fcef1f1a1c22cca9522.jpg",
+    "static/media/Mestojs.jpg": "/portfolio/static/media/Mestojs.4d94fadff1978518819f.jpg",
+    "static/media/onex.jpg": "/portfolio/static/media/onex.519f5f0a23a300db34cc.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.d4e5080113abe124a06f.jpg",
+    "static/media/404.jpg": "/portfolio/static/media/404.eec647b3418532631528.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.a8ccd954.css.map": "/portfolio/static/css/main.a8ccd954.css.map",
+    "main.1453187d.js.map": "/portfolio/static/js/main.1453187d.js.map",
+    "787.a2bf511c.chunk.js.map": "/portfolio/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8ccd954.css",
+    "static/js/main.1453187d.js"
+  ]
+}
