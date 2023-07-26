@@ -10,6 +10,7 @@ function Career() {
           <img
             className="career-1-img"
             src="https://online-express.ru/themes/newTheme/img/onex-logo-ru.svg"
+            alt="Описание изображения"
           ></img>
           <h3 className="career-1-h3">ООО "МЕГАПОЛЮС ГРУППА"</h3>
           <div>
@@ -103,6 +104,7 @@ function Career() {
           <img
             className="career-1-img"
             src="https://fstravel.com/storage/images/logo.svg"
+            alt="Описание изображения"
           ></img>
           <h3 className="career-1-h3">АО Северсталь инфоком</h3>
           <div>
@@ -213,6 +215,7 @@ function Career() {
           <img
             className="career-1-img"
             src="https://yastatic.net/s3/web4static/_/v2/Qp8JE5cCGPNSoggwwYVrvTp_6ds.svg"
+            alt="Описание изображения"
           ></img>
           <h3 className="career-1-h3">Яндекс (Анкор)</h3>
           <div>
@@ -251,6 +254,7 @@ function Career() {
           <img
             className="career-1-img"
             src="https://en.chessbase.com/images/cb-logo.svg"
+            alt="Описание изображения"
           ></img>
           <h3 className="career-1-h3">ООО "Чессбэйс"</h3>
           <div>

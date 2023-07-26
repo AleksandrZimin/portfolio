@@ -247,7 +247,7 @@ function Portfolio() {
             <div className="teg">React.js</div>
           </div>
           <div className="photo">
-            <img src={portfolio}></img>
+            <img src={portfolio} alt="Портфолио"></img>
           </div>
         </div>
         <div className="block-item">
@@ -261,7 +261,7 @@ function Portfolio() {
             <div className="teg">javascript</div>
           </div>
           <div className="photo">
-            <img src={chessbase}></img>
+            <img src={chessbase} alt="ChessBase"></img>
           </div>
         </div>
         <div className="block-item">
@@ -274,7 +274,7 @@ function Portfolio() {
             <div className="teg">php</div>
           </div>
           <div className="photo">
-            <img src={galaxy}></img>
+            <img src={galaxy} alt="Свет"></img>
           </div>
         </div>
         <div className="block-item">
@@ -286,7 +286,7 @@ function Portfolio() {
             <div className="teg">Laravel</div>
           </div>
           <div className="photo">
-            <img src={fs}></img>
+            <img src={fs} alt="FS"></img>
           </div>
         </div>
         <div className="block-item">
@@ -297,7 +297,7 @@ function Portfolio() {
             <div className="teg">Laravel</div>
           </div>
           <div className="photo">
-            <img src={onex}></img>
+            <img src={onex} alt="onex"></img>
           </div>
         </div>
       </div>
