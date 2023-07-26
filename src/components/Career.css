@@ -1,0 +1,84 @@
+.career {
+   padding: 100px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.career-tag {
+   width: max-content;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-radius: 16px;
+    background-color: rgba(123, 74, 226, 0.10);
+    padding: 0 40px;
+    color: #7B4AE2;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    fill: rgba(123, 74, 226, 0.10);
+    margin: 10px;
+}
+
+.career-1 {
+   margin-top: 100px;
+   min-height: 50px;
+   width: 1000px;
+   border: 1px solid #7B4AE2;
+   border-radius: 16px;
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.career-1-img {
+   width: 300px;
+   margin: 50px;
+   float: left;
+}
+.career-1 > div {
+   display: table;
+   margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
+   white-space: pre-line; /* не нужен <br> */ 
+   word-wrap: break-word; 
+   text-align: left;
+}
+
+.career-1-text {
+   padding: 10px 100px;
+   box-sizing: border-box;
+}
+
+.career-1-h3 {
+   color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.career-1-text > div {
+   color: #FFF;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.career-1-text > p {
+   color: rgba(255, 255, 255, 0.50);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+}

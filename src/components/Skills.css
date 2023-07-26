@@ -1,0 +1,45 @@
+.skills {
+   padding: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+}
+
+.skills-tag {
+   width: max-content;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: start;
+   border-radius: 16px;
+   background-color: rgba(123, 74, 226, 0.10);
+   padding: 0 40px;
+   color: #7B4AE2;
+   font-family: Raleway;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   fill: rgba(123, 74, 226, 0.10);
+   margin: 10px;
+
+}
+
+.skills-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1000px;
+}
+
+.skills-img > svg {
+   margin: 10px;
+   transition: all 450ms ease-out;
+}
+
+.skills-img > svg:hover {
+   margin: 5px;
+   width: 50px;
+}
