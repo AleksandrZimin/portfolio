@@ -1,5 +1,6 @@
 .promo {
    padding: 200px 50px 150px 50px;
+   width: calc(100% - (70px*2));
    display: flex;
    justify-content: space-evenly;
    align-items: center;
@@ -145,3 +146,28 @@ margin-top: 10px;
    font-weight: 600;
    line-height: normal;
    }
+
+   @media screen and (max-width: 1024px) {
+.promo {
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 400px;
+}
+      
+   }
+
+   @media screen and (max-width: 600px) {
+      .promo-left {
+         align-items: start;
+      }
+
+      .promo-left-name {
+         width: 100%;
+      }
+
+      .promo-center > img {
+         width: 210px;
+         height: 210px;
+      }
+            
+         }

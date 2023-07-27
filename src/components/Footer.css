@@ -1,5 +1,5 @@
 .footer {
-   width: 100%;
+   width: 100vw;
    height: 88px;
    background: rgba(123, 74, 226, 0.10);
    display: flex;

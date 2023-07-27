@@ -299,8 +299,8 @@ function Curses() {
           <p className="curses-block-1-p2">Прикладная математика</p>
         </div>
       </div>
-      <div className={`curses-text ${activeTab !== null ? "open" : ""}`}>
-        <div className={`curses-text-1 ${activeTab === 0 ? "open" : ""}`}>
+      <div className={`curses-text ${activeTab !== null ? "open-block" : ""}`}>
+        <div className={`curses-text-1 ${activeTab === 0 ? "open-block" : ""}`}>
           <span>
             Изучил профессию <b>Full-stack веб разработчик.</b> Теперь лучше
             понимаю, чем занимаются разработчики и как фиксят баги. А так же где
@@ -321,7 +321,7 @@ function Curses() {
             Окончил курс: <b>сентябрь 2023</b>
           </span>
         </div>
-        <div className={`curses-text-2 ${activeTab === 1 ? "open" : ""}`}>
+        <div className={`curses-text-2 ${activeTab === 1 ? "open-block" : ""}`}>
           <span>
             Изучил профессию <b>Инженер по автоматизации тестирования Java. </b>
             Год учебы и практика на реальных проектах.
@@ -343,7 +343,7 @@ function Curses() {
             Окончил курс: <b>сентябрь 2022</b>
           </span>
         </div>
-        <div className={`curses-text-3 ${activeTab === 2 ? "open" : ""}`}>
+        <div className={`curses-text-3 ${activeTab === 2 ? "open-block" : ""}`}>
           <span>
             Учился на бюджете в{" "}
             <b>Российском государственном геологоразведочном университете</b> по

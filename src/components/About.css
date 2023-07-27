@@ -1,5 +1,5 @@
 .about {
-   min-width: 1000px;
+   width: calc(100% - (70px*2));
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -13,8 +13,9 @@
 }
 
 .about-text{
-   width: 600px;
+   width: 100%;
    text-align: start;
+   margin-left: 50px;
 }
 
 .about-text-item {
@@ -65,4 +66,22 @@ margin: 24px 0;
    font-size: 18px;
    margin-right: 10px;
    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 968px) {
+   .about {
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .about-photo {
+      width: 250px;
+      margin-bottom: 30px;
+   }
+
+   .about-text-h1 {
+      font-size: 38px;
+
+   }
 }

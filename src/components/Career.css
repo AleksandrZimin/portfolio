@@ -4,6 +4,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   width: calc(100% - (70px*2));
 }
 
 .career-tag {
@@ -29,7 +30,7 @@
 .career-1 {
    margin-top: 100px;
    min-height: 50px;
-   width: 1000px;
+   width: 100%;
    border: 1px solid #7B4AE2;
    border-radius: 16px;
    display: flex;
@@ -42,6 +43,8 @@
    margin: 50px;
    float: left;
 }
+
+
 .career-1 > div {
    display: table;
    margin: 0 auto; /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */ 
@@ -52,6 +55,7 @@
 
 .career-1-text {
    padding: 10px 100px;
+   width: 100%;
    box-sizing: border-box;
 }
 
@@ -81,4 +85,31 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: justify;
+}
+
+@media screen and (max-width: 850px) {
+
+   .career {
+      width: 90%;
+   }
+   .career-1-text{
+      width: 100%;
+      padding: 10px;
+
+   }
+
+   .career-1-h3{
+      padding: 0;
+      margin: 0;
+   }
+
+   .career-1-img {
+      width: 100px;
+      padding: 0;
+      float: none;
+   }
+
+   .career-1-text > p {
+      margin: 10px 0;
+   }
 }
