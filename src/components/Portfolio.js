@@ -171,7 +171,10 @@ function Portfolio() {
             <div className="teg">React.js</div>
           </div>
           <div className="photo">
-            <a href="https://github.com/AleksandrZimin/mesto-react">
+            <a
+              href="https://github.com/AleksandrZimin/mesto-react"
+              target="_blank"
+            >
               <img src={mestoReact} alt="Место реакт"></img>
             </a>
           </div>
@@ -186,7 +189,7 @@ function Portfolio() {
             <div className="teg">Javascript</div>
           </div>
           <div className="photo">
-            <a href="https://aleksandrzimin.github.io/mesto/">
+            <a href="https://aleksandrzimin.github.io/mesto/" target="_blank">
               <img src={mestojs} alt="Место JS"></img>
             </a>
           </div>
@@ -201,7 +204,10 @@ function Portfolio() {
             <div className="teg">Bootstrap</div>
           </div>
           <div className="photo">
-            <a href="https://aleksandrzimin.github.io/russian-travel/">
+            <a
+              href="https://aleksandrzimin.github.io/russian-travel/"
+              target="_blank"
+            >
               <img src={adaptiv} alt="Адаптив"></img>
             </a>
           </div>
@@ -218,7 +224,10 @@ function Portfolio() {
             <div className="teg">BEM</div>
           </div>
           <div className="photo">
-            <a href="https://aleksandrzimin.github.io/how-to-learn/">
+            <a
+              href="https://aleksandrzimin.github.io/how-to-learn/"
+              target="_blank"
+            >
               <img src={bem} alt="BEM Nested"></img>
             </a>
           </div>
@@ -231,7 +240,7 @@ function Portfolio() {
             <div className="teg">CSS</div>
           </div>
           <div className="photo">
-            <a href="https://aleksandrzimin.github.io/yandex/">
+            <a href="https://aleksandrzimin.github.io/yandex/" target="_blank">
               <img src={czc} alt="404"></img>
             </a>
           </div>
@@ -247,7 +256,9 @@ function Portfolio() {
             <div className="teg">React.js</div>
           </div>
           <div className="photo">
-            <img src={portfolio} alt="Портфолио"></img>
+            <a href="https://web-lab.pw/" target="_blank">
+              <img src={portfolio} alt="Портфолио"></img>
+            </a>
           </div>
         </div>
         <div className="block-item">
@@ -261,7 +272,9 @@ function Portfolio() {
             <div className="teg">javascript</div>
           </div>
           <div className="photo">
-            <img src={chessbase} alt="ChessBase"></img>
+            <a href="https://chessbase.ru/" target="_blank">
+              <img src={chessbase} alt="ChessBase"></img>
+            </a>
           </div>
         </div>
         <div className="block-item">
@@ -274,7 +287,9 @@ function Portfolio() {
             <div className="teg">php</div>
           </div>
           <div className="photo">
-            <img src={galaxy} alt="Свет"></img>
+            <a href="https://galaxy-light.ru/" target="_blank">
+              <img src={galaxy} alt="Свет"></img>
+            </a>
           </div>
         </div>
         <div className="block-item">
@@ -286,7 +301,9 @@ function Portfolio() {
             <div className="teg">Laravel</div>
           </div>
           <div className="photo">
-            <img src={fs} alt="FS"></img>
+            <a href="https://fstravel.com/" target="_blank">
+              <img src={fs} alt="FS"></img>
+            </a>
           </div>
         </div>
         <div className="block-item">
@@ -297,7 +314,9 @@ function Portfolio() {
             <div className="teg">Laravel</div>
           </div>
           <div className="photo">
-            <img src={onex} alt="onex"></img>
+            <a href="https://online-express.ru/" target="_blank">
+              <img src={onex} alt="onex"></img>
+            </a>
           </div>
         </div>
       </div>
