@@ -48,7 +48,7 @@ function Promo() {
         </div>
       </div>
       <div className="promo-center">
-        <img src={photo}></img>
+        <img src={photo} alt="center"></img>
       </div>
       <div className="promo-right">
         <a href="https://hh.ru/resume_converter/%D0%97%D0%B8%D0%BC%D0%B8%D0%BD%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87.pdf?hash=72c8fa6dff096d51de0039ed1f5a4a37753876&type=pdf&hhtmSource=resume&hhtmFrom=resume_list">

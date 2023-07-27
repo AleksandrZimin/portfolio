@@ -5,7 +5,7 @@ import myPhoto from "../image/myphoto.jpg";
 function About() {
   return (
     <div className="about">
-      <img src={myPhoto} className="about-photo"></img>
+      <img src={myPhoto} alt="об" className="about-photo"></img>
       <div className="about-text">
         <span className="about-text-item-first" id="about">
           🧐 Обо мне
