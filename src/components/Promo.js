@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Promo.css";
 import github from "../image/github.png";
 import telegram from "../image/telegram_logo_circle_icon_134012.png";
@@ -7,17 +7,36 @@ import vk from "../image/1486147202-social-media-circled-network10_79475.png";
 import photo from "../image/AvatarAndIcons (1).png";
 
 function Promo() {
+  const [greeting, setGreeting] = useState("Добрый день!");
+
+  useEffect(() => {
+    const currentHour = new Date().getHours();
+    let newGreeting;
+
+    if (currentHour >= 5 && currentHour < 12) {
+      newGreeting = "Доброе утро!";
+    } else if (currentHour >= 12 && currentHour < 18) {
+      newGreeting = "Добрый день!";
+    } else if (currentHour >= 18 || currentHour < 23) {
+      newGreeting = "Добрый вечер!";
+    } else if (currentHour >= 23 || currentHour < 5) {
+      newGreeting = "Доброй ночи!";
+    }
+
+    setGreeting(newGreeting);
+  }, []);
+
   return (
     <div className="promo">
       <div className="promo-left">
         <div className="promo-left-hello">
           <span className="promo-left-hello-text" id="main">
-            <icon>👋</icon> Добрый день!
+            <icon>👋</icon> {greeting}
           </span>
         </div>
         <div className="promo-left-name">Зимин Александр</div>
         <div className="promo-left-job">
-          Ведущий инженер тестировщик Senior QA engineer
+          Ведущий инженер тестировщик<br></br> Senior QA engineer
         </div>
         <div className="promo-left-icons">
           <ul className="promo-left-icons-list">
