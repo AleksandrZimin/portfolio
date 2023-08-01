@@ -204,9 +204,6 @@ text-align: left;
 }
 
 @media screen and (max-width: 968px) {
-   .curses {
-      
-   }
 
    .curses-blocks {
       flex-direction: column;
