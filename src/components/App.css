@@ -45,3 +45,13 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  max-width: 1640px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+}

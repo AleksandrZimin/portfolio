@@ -22,6 +22,12 @@
    align-items: center;
    border-radius: 16px;
    background: rgba(123, 74, 226, 0.10);
+   cursor: pointer;
+   transition: all 250ms ease-out;
+}
+
+.promo-left-hello:hover {
+   padding: 0 30px;
 }
 
 .promo-left-hello-text {

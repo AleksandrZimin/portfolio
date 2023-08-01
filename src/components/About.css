@@ -9,7 +9,12 @@
 .about-photo{
    width: 350px;
    border-radius:50%;
-   /* margin-right: 250px; */
+   cursor: pointer;
+   transition: all 250ms ease-out;
+}
+
+.about-photo:hover {
+   width: 340px;
 }
 
 .about-text{
@@ -46,6 +51,12 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+cursor: pointer;
+transition: all 250ms ease-out;
+}
+
+.about-text-item-first:hover {
+   padding: 0 30px;
 }
 
 .about-text-h1 {
@@ -75,6 +86,9 @@ margin: 24px 0;
    .about-photo {
       width: 250px;
       margin-bottom: 30px;
+   }
+   .about-photo:hover {
+      width: 240px;
    }
 
    .about-text-h1 {

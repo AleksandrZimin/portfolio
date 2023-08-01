@@ -30,7 +30,21 @@
 }
 
 .curses-block-1:hover {
-   background: rgba(123, 74, 226, 0.10)
+   background: rgba(123, 74, 226, 0.10);
+
+}
+
+.curses-block-1:hover  .curses-block-1-p2 {
+   font-size: 24px;
+}
+
+.curses-block-1:hover  .curses-block-1-p1 {
+   font-size: 15px;
+}
+
+.curses-block-1:hover  .curses-block-1-icon {
+   width: 70px;
+   height: 62px;
 }
 
 .active {
@@ -41,6 +55,7 @@
    width: 72px;
 height: 64px;
 flex-shrink: 0;
+transition: all 550ms ease-out;
 }
 
 .curses-block-1-p1 {
@@ -52,6 +67,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin: 0;
+transition: all 550ms ease-out;
 }
 
 .curses-block-1-p2 {
@@ -63,6 +79,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin: 0;
+transition: all 550ms ease-out;
 }
 
 .curses-text {

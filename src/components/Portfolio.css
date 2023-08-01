@@ -32,6 +32,12 @@
    border-radius: 16px;
    background-color: rgba(123, 74, 226, 0.10);
    padding: 0 40px;
+   cursor: pointer;
+   transition: all 250ms ease-out;
+}
+
+.portfolio-link:hover {
+   padding: 0 30px;
 }
 
 .portfolio-link-p {

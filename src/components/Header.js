@@ -13,20 +13,72 @@ function Header() {
     <div className="header" name="main">
       <div className="menu-block" onClick={toggleMenu}>
         <svg
-          className="header-svg"
-          data-name="Слой 1"
-          id="Слой_1"
-          viewBox="0 0 128 128"
+          className={`header-svg ${!isMenuVisible ? "" : "open-svg"}`}
+          width="26px"
+          height="26px"
+          viewBox="0 0 24.00 24.00"
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          stroke="rgba(255, 255, 255, 0.50)"
         >
-          <title />
-          <path d="M64,128a64,64,0,1,1,64-64A64.07,64.07,0,0,1,64,128ZM64,4a60,60,0,1,0,60,60A60.07,60.07,0,0,0,64,4Z" />
-          <path d="M95,44H33a2,2,0,0,1,0-4H95a2,2,0,0,1,0,4Z" />
-          <path d="M95,66H33a2,2,0,0,1,0-4H95a2,2,0,0,1,0,4Z" />
-          <path d="M95,88H33a2,2,0,0,1,0-4H95a2,2,0,0,1,0,4Z" />
+          <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+
+          <g id="SVGRepo_iconCarrier">
+            {" "}
+            <g id="Menu / Hamburger_MD">
+              {" "}
+              <path
+                id="Vector"
+                d="M5 17H19M5 12H19M5 7H19"
+                stroke="rgba(255, 255, 255, 0.50)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />{" "}
+            </g>{" "}
+          </g>
         </svg>
-        <h1 className="header-h1" href="#">
-          Портфолио
+        <svg
+          className={`header-svg ${isMenuVisible ? "" : "open-svg"}`}
+          width="26px"
+          height="26px"
+          viewBox="0 0 24.00 24.00"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#rgba(255, 255, 255, 0.50)"
+          transform="rotate(90)"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            {" "}
+            <g id="Menu / Hamburger_MD">
+              {" "}
+              <path
+                id="Vector"
+                d="M5 17H19M5 12H19M5 7H19"
+                stroke="rgba(255, 255, 255, 0.50)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>{" "}
+            </g>{" "}
+          </g>
+        </svg>
+        <h1 className="header-h1">
+          <Link to="up" smooth={true} duration={500} offset={-70}>
+            Портфолио
+          </Link>
         </h1>
       </div>
 

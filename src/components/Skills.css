@@ -25,7 +25,13 @@
    line-height: normal;
    fill: rgba(123, 74, 226, 0.10);
    margin: 10px;
+   cursor: pointer;
+   transition: all 250ms ease-out;
 
+}
+
+.skills-tag:hover {
+   padding: 0 30px;
 }
 
 .skills-img {

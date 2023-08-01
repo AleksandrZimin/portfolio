@@ -12,13 +12,15 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Promo />
-      <About />
-      <Curses />
-      <Portfolio />
-      <Career />
-      <Skills />
+      <div className="wrapper" id="up">
+        <Header />
+        <Promo />
+        <About />
+        <Curses />
+        <Portfolio />
+        <Career />
+        <Skills />
+      </div>
       <Footer />
     </div>
   );

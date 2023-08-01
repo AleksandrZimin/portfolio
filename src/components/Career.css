@@ -25,6 +25,12 @@
     line-height: normal;
     fill: rgba(123, 74, 226, 0.10);
     margin: 10px;
+    cursor: pointer;
+    transition: all 250ms ease-out;
+}
+
+.career-tag:hover {
+   padding: 0 30px;
 }
 
 .career-1 {
