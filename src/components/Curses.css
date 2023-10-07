@@ -102,7 +102,7 @@ transition: all 450ms ease-out;
 
 
 .curses-text-1 > span {
-   color: #7B4AE2;
+   color: #fff;
 text-align: center;
 font-family: Raleway;
 font-size: 24px;
@@ -113,7 +113,7 @@ text-align: justify;
 }
 
 .curses-text-1 > :nth-child(2) {
-color: #7B4AE2;
+color: #fff;
 font-family: Raleway;
 font-size: 24px;
 font-style: normal;
@@ -124,7 +124,7 @@ margin: 20px;
 }
 
 .curses-text-1 > p {
-   color: #7B4AE2;
+   color: #fff;
 text-align: start;
 font-family: Raleway;
 font-size: 16px;
@@ -139,7 +139,7 @@ margin: 5px;
 }
 
 .curses-text-2 > span {
-color: #7B4AE2;
+color: #fff;
 text-align: center;
 font-family: Raleway;
 font-size: 24px;
@@ -150,7 +150,7 @@ text-align: justify;
 }
 
 .curses-text-2 > :nth-child(2) {
-   color: #7B4AE2;
+   color: #fff;
 text-align: center;
 font-family: Raleway;
 font-size: 24px;
@@ -162,7 +162,7 @@ margin: 20px;
 }
 
 .curses-text-2 > p {
-color: #7B4AE2;
+color: #fff;
 text-align: start;
 font-family: Raleway;
 font-size: 16px;
@@ -177,7 +177,7 @@ display: none;
 }
 
 .curses-text-3 > span {
-color: #7B4AE2;
+color: #fff;
 font-family: Raleway;
 font-size: 24px;
 font-style: normal;
@@ -187,7 +187,7 @@ text-align: justify;
 }
 
 .curses-text-3 > :nth-child(2) {
-color: #7B4AE2;
+color: #fff;
 font-family: Raleway;
 font-size: 24px;
 font-style: normal;

@@ -10,6 +10,7 @@ import chessbase from "../image/chessbase.jpg";
 import galaxy from "../image/galaxy.jpg";
 import fs from "../image/fs.jpg";
 import onex from "../image/onex.jpg";
+import mestofb from "../image/mestofb.jpg";
 
 function Portfolio() {
   const [activeTab, setActiveTab] = useState(0);
@@ -164,6 +165,21 @@ function Portfolio() {
         </div>
       </div>
       <div className={`portfolio-low-block-1 ${activeTab === 0 ? "open" : ""}`}>
+      <div className="block-item">
+          <span>Mesto frontend + backend</span>
+          <p>Готовый проект. Регистрируйтесь и пользуйтесь</p>
+          <div>
+            <div className="teg">React.js</div>
+          </div>
+          <div className="photo">
+            <a
+              href="https://https://zimin.nomoredomainsrocks.ru/"
+              target="_blank"
+            >
+              <img src={mestofb} alt="Готовый проект Место"></img>
+            </a>
+          </div>
+        </div>
         <div className="block-item">
           <span>Сервис Mesto</span>
           <p>Данный проект переписан полностью на React.js</p>

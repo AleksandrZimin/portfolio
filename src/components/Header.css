@@ -100,25 +100,3 @@
    color: rgba(123, 74, 226, 0.50);
    font-size: 17px;
 }
-
-@media screen and (max-width: 600px) {
-   .menu-list  {
-      flex-direction: column;
-   }
-
-   .header {
-      width: 50%;
-      flex-direction: column;
-      width: max-content;
-      
-   }
-
-   .menu {
-      display: none;
-   }
-
-   .open-menu {
-      display: block;
-   }
-
-}
