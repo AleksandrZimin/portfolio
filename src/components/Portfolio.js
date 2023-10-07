@@ -170,10 +170,12 @@ function Portfolio() {
           <p>Готовый проект. Регистрируйтесь и пользуйтесь</p>
           <div>
             <div className="teg">React.js</div>
+            <div className="teg">Node.js</div>
+            <div className="teg">Express.js</div>
           </div>
           <div className="photo">
             <a
-              href="https://https://zimin.nomoredomainsrocks.ru/"
+              href="https://zimin.nomoredomainsrocks.ru/"
               target="_blank"
             >
               <img src={mestofb} alt="Готовый проект Место"></img>
